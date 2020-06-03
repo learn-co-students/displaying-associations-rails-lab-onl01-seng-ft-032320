@@ -1,0 +1,6 @@
+<h1>Artist</h1>
+
+<%@artists.each do |a|%>
+   <%= link_to (a.name), a %>
+   <%= a.song_count%> song
+<%end%>
